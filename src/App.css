@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@layer components{
+    .txt{
+        @apply text-emerald-800 text-5xl font-medium m-10 text-center;
+    }
+
+    .b{
+        @apply border-2 border-emerald-400 mx-4 rounded p-2;
+    }
+    .btn{
+        @apply border-2  mx-3 rounded py-2 px-4  text-white transition hover:scale-125;
+    }
+    .container{
+        @apply rounded p-8 bg-emerald-950 text-emerald-300 m-8;
+    }
+    .u{
+        @apply bg-cyan-500 text-emerald-950 hover:bg-cyan-950 hover:text-white;
+    }
+}
